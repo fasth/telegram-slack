@@ -1,0 +1,12 @@
+stages:
+  - build
+build:
+  stage: build
+  tags:
+   - ubuntufast2
+  script:
+   - ./gradlew bootJar
+  artifacts:
+   paths:
+    - build/libs/server-0.0.1-SNAPSHOT.jar
+   expire_in: 1 week

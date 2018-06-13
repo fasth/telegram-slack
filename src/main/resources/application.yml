@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: none
+
+slackBotToken:
+rtmUrl: https://slack.com/api/rtm.start?token=${slackBotToken}&simple_latest&no_unreads
+slack-web-uri: https://slack.com/api
+
+telegram-bot:
+  token:
+  telegram-base-uri: https://api.telegram.org/bot
+  webhook-base-uri:
+
+storage:
+  dir: ./confluences-db.yml
