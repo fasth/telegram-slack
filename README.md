@@ -1,6 +1,6 @@
-При регистрации бота у @BotFather установить /setprivacy
+During @BotFather registration type /setprivacy
 
-Необходимые аргументы при запуске jar-ника: (заменить на свои)
+Arguments to execution of jar (change with your own):
  
 --telegram-bot.token="462938405:AAFNBgTpII9s-r1mWmvym3ecxCnQd7s-wgS"
    
